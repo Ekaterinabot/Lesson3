@@ -38,10 +38,9 @@ print(numpy.mean(x))
 
 # №2. Использую numpy посчитать сумму ряда от 0-input():
 
-import numpy
-a=int(input())
-b=[int(j) for j in input().split()]
-print(numpy.array(b))
+import numpy as np
+np.sum(np.arange(0, int(input())))
+
 
 
 
